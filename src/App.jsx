@@ -1,18 +1,13 @@
 import Navigation from "./components/Navigation/Navigation";
 import HeroSection from "./components/HeroSection/HeroSection";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
       <Navigation />
-      <main>
-        <HeroSection />
-      </main>
+      <HeroSection />
     </>
   );
 
 }
 
-export default App;   
