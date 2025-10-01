@@ -6,8 +6,6 @@ const SolarEnergyProduction = () => {
             <p>Daily energy output for the past 7 days</p>
         </section>
     )
-
-
-
+    
 };
 export default SolarEnergyProduction;
