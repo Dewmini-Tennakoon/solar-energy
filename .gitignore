@@ -22,3 +22,28 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+backend/dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# OneDrive ghost files
+*.tmp
