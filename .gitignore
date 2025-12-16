@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -48,3 +49,8 @@ Thumbs.db
 # OneDrive ghost files
 *.tmp
 
+=======
+node_modules/
+dist/
+.env
+>>>>>>> 64f961687fb6a72cfadfcdb93b75bd8257bf2a3c
