@@ -1,4 +1,4 @@
-import imgWindTurbine from "./wind-turbine.webp";
+import imgWindTurbine from "./wind-turbine.png";
 import { Sailboat, Shield, Triangle, Wind } from "lucide-react";
 
 export default function HeroSection() {

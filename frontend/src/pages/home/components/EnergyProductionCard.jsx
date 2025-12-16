@@ -37,7 +37,6 @@ const EnergyProductionCard = (props) => {
     // setNums( [...nums, 11] );
   };
 
- 
   return (
     <button
       className={`block cursor-pointer ${
@@ -58,7 +57,7 @@ const EnergyProductionCard = (props) => {
         <span className="block text-gray-600 text-sm font-medium">
           {props.day}
         </span>
-         <span className="block text-xs text-gray-500">{props.date}</span>
+        <span className="block text-xs text-gray-500">{props.date}</span>
       </div>
       <div className="p-6 pt-2 flex flex-col items-center">
         <span
@@ -72,7 +71,6 @@ const EnergyProductionCard = (props) => {
       </div>
     </button>
   );
-
 };
 
 export default EnergyProductionCard;

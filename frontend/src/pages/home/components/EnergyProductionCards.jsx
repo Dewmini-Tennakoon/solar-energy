@@ -24,8 +24,6 @@ const EnergyProductionCards = (props) => {
       })}
     </div>
   );
-  
 };
-
 
 export default EnergyProductionCards;
